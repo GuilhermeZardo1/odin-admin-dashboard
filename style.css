@@ -22,12 +22,21 @@ html, body {
     background-color: #e2e9f1;
 }
 
+
 .side-bar{
     grid-row: 1/13;
     display:grid;
     grid-template-rows: repeat(12, auto);
     height: 100%;
     background-color: #1c94d3;
+}
+
+.side-bar li{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap: 15px;
+    padding-bottom: 10px;
 }
 
 .right-side{
@@ -45,10 +54,12 @@ html, body {
 
 .first-menu{
     grid-row:3/6;
+    
 }
 
 .second-menu{
     grid-row:7/13;
+    
 }
 
 .main-content{
@@ -58,17 +69,32 @@ html, body {
    
 }
 
+
+
+
+.tile-icons{
+    justify-self: end;
+}
+
+.main-content p{
+    padding-left: 10px;
+   
+}
+
 .project-tiles{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
     padding:10px;
+    min-height: 350px;
     
     
 }
 
+
 .project{
     background-color: white;
+    display: grid;
 }
 
 
@@ -99,19 +125,24 @@ ul,li{
     background-color: white;
 }
 
-.announcement{
+
+.background-announcements{
     background-color: white;
 }
 
+.background-trendings{
+    background-color: white;
+}
 .announcements{
 
-    padding-right: 10px;
+    padding-right: 20px;
+    
    
 }
 
 .trendings{
 
-    padding-right: 10px;
+    padding-right: 20px;
    
 }
 
@@ -123,3 +154,68 @@ svg{
     height: 24px;
     width: 24px;
 }
+
+.logo{
+    padding-top: 20px;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo-item{
+    height: 50px;
+    width: 50px;
+}
+
+img{
+    width: 150px;
+   
+}
+
+.trending li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+}
+
+.announcement{
+    padding: 20px;
+}
+
+.user-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+    
+}
+
+.hi-there{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    padding: 10px 10px 10px 30px;
+    
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 25px;
+   
+}
+
+
+

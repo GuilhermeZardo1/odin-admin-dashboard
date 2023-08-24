@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="0.266667in" height="0.266667in"
+     viewBox="0 0 24 24">
+  <path id="Selection"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 2.00,12.00
+           C 9.94,0.92 14.06,0.92 22.00,12.00
+             18.50,14.34 19.05,16.05 19.00,20.00
+             19.00,20.00 14.00,20.00 14.00,20.00
+             14.00,20.00 14.00,14.00 14.00,14.00
+             14.00,14.00 10.00,14.00 10.00,14.00
+             10.00,14.00 10.00,20.00 10.00,20.00
+             10.00,20.00 5.00,20.00 5.00,20.00
+             4.95,16.05 5.50,14.34 2.00,12.00 Z" />
+</svg>

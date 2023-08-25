@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 html, body {
     margin: 0;
     height: 100%;
@@ -29,6 +36,9 @@ html, body {
     grid-template-rows: repeat(12, auto);
     height: 100%;
     background-color: #1c94d3;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
 }
 
 .side-bar li{
@@ -37,6 +47,7 @@ html, body {
     padding-left: 15px;
     gap: 15px;
     padding-bottom: 10px;
+   
 }
 
 .right-side{
@@ -50,6 +61,22 @@ html, body {
     grid-row: 1/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    position: relative;
+    
+   
+}
+
+.head-button {
+    color: white;
+    font-weight: 500;
+    background-color: rgba(25,146,212,255);
+    width: 75px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 .first-menu{
@@ -89,14 +116,36 @@ html, body {
     min-height: 350px;
     
     
+    
 }
 
+.search-image{
+    
+    display: flex;
+    align-items: center;
+}
+
+.my-form{
+
+
+    display: flex;
+    align-items: center;
+}
 
 .project{
     background-color: white;
     display: grid;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    background-image: linear-gradient(left, #f0b429, #f0b429 2%, transparent 2%, transparent 100%);
+    background-image: -webkit-linear-gradient(left, #f0b429, #f0b429 2%, transparent 2%, transparent 100%)
 }
 
+.profile-pic-large {
+    width: 70px;
+    border-radius: 50px;
+    border: 1px solid rgb(197, 197, 197);
+    margin-right: 15px;
+}
 
 
 .menu-icon{
@@ -109,11 +158,6 @@ ul,li{
     list-style: none;
 }
 
-.search-bar{
-   
-
-    
-}
 
 .side-content{
     background-color: #e2e9f1;
@@ -133,10 +177,10 @@ ul,li{
 .background-trendings{
     background-color: white;
 }
+
 .announcements{
 
     padding-right: 20px;
-    
    
 }
 
@@ -200,6 +244,7 @@ img{
     padding: 10px;
     padding: 10px 10px 10px 30px;
     
+    
 }
 
 .buttons{
@@ -212,9 +257,22 @@ img{
 
 .search-bar{
     display: flex;
-    align-items: center;
+    align-self: center;
     padding: 10px 10px 10px 25px;
+    gap: 10px;
    
+}
+
+
+.search-input {
+    padding-left: 10px;
+    width: 45vw;
+    max-width: 471px;
+    height: 25px;
+    background-color: rgba(226,232,240,255);
+    border: none;
+    border-radius: 15px;
+
 }
 
 

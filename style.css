@@ -47,7 +47,8 @@ html, body {
     padding-left: 15px;
     gap: 15px;
     padding-bottom: 10px;
-   
+    padding-right: 10px;
+    
 }
 
 .right-side{
@@ -97,10 +98,10 @@ html, body {
 }
 
 
-
-
 .tile-icons{
-    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
+    gap:5px;
 }
 
 .main-content p{
@@ -112,11 +113,7 @@ html, body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
-    padding:10px;
-    min-height: 350px;
-    
-    
-    
+    margin-right: 30px;
 }
 
 .search-image{
@@ -134,10 +131,45 @@ html, body {
 
 .project{
     background-color: white;
-    display: grid;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    min-width: 265px;
     box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: linear-gradient(left, #f0b429, #f0b429 2%, transparent 2%, transparent 100%);
     background-image: -webkit-linear-gradient(left, #f0b429, #f0b429 2%, transparent 2%, transparent 100%)
+}
+
+.project-heading {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.project-description {
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+}
+
+.project-section-heading {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .profile-pic-large {
@@ -167,6 +199,7 @@ ul,li{
 
 .trending{
     background-color: white;
+    
 }
 
 
@@ -275,5 +308,119 @@ img{
 
 }
 
+.profile-pic-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+hr {
+    margin: 15px 0 15px 0;
+}
 
 
+
+.trending-profiles-section {
+    grid-column: 2/3;
+    grid-row: 2/3;
+ 
+   
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.trending-profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.trending-profile img {
+    margin-right: 10px;
+}
+
+.trending-username {
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+.trending-project {
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+
+.trending-container {
+    background-color: white;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    padding: 20px 20px 6px 25px;
+    border-radius: 5px;
+    min-width: 231px;
+}
+
+.announcements-section {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.announcements-section-heading {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.announcements-container {
+    background-color: white;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    padding: 20px 20px 20px 25px;
+    border-radius: 5px;
+    min-width: 231px;
+}
+
+.announcement-heading {
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 3px;
+
+}
+
+.announcement-description {
+    font-size: 11px;
+    color: rgb(88, 88, 88);
+}
+
+hr {
+    margin: 15px 0 15px 0;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.07);
+}
+
+ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-transform: scale(1.07);
+}
+
+.project-heading:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.01);
+    text-decoration: underline;
+}
+
+.announcement-heading:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.01);
+}
+
+.trending-profile:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+}
